@@ -1,0 +1,23 @@
+babab accepted
+aabb accepted
+abbba accepted
+aaaaba rejected
+b rejected 
+bbba rejected
+
+langage : tt les mots contenant 2 a
+expr reg : b*ab*ab*
+
+pas deterministe car la transition b va vers q0 et q1 par exemple
+
+a a puis b b sur q3
+a a sur q0 puis b b
+
+ab,ba sont refusé et de longueur 2
+
+6 mots de longueur 8 acceptés : aabbbb, bbbaab, aabbba, ababbb ...
+
+expr reg : (aa+bbb)*(a+b)
+
+expr reg : (a,b)*(a+ab)
+
