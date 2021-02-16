@@ -18,3 +18,23 @@ lexer grammar JetonsJava; // declaration definissant le nom de la grammaire :
 // negation : ~
 
 // Isolation de jetons dans un code source Java
+
+OPERATEUR
+    : '<'|'<='|'>'|'>='|'=='|'!='
+;
+
+MOTCLE
+    :  'break' | 'class' | 'double' | 'else' | 'if' | 'import' | 'public' | 'static' | 'throws'
+;
+
+IDENTIFIANT
+    :   ('a'..'z' | 'A'..'Z' | '_')('a'..'z' | 'A'..'Z' | '_' | '0'..'9')*
+;
+
+WHITE_SPACE
+    : (' '|'\n'|'\t'|'\r')+
+;
+
+UNMATCH // regle correspondant au reste :
+    : .
+;
