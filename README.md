@@ -8,4 +8,5 @@
 
 - TP1 : simple DFA (Deterministic Finite Automaton)
 - TP2 : JFLAP software for DFA, NFA (Nondeterministic finite automaton), RE (regular expression) ...
-- TP3 : ANTLR introduction
+- TP3 : ANTLR introduction, Java parsing, HTML Writer...
+- TP4 :
