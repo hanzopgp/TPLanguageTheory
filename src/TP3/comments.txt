@@ -30,7 +30,13 @@
 // On met en argument le fichier dont on veut extraire les tokens en argument
 
 // Analyse de l'output
-À chaque jeton correspond une chaîne de caractères entre crochets qui commence toujours par le numéro du canal @-1,.
-Suivent ensuite les indices du premier caractère du jeton et de son dernier caractère dans le flot d'entrée,
-puis le texte du jeton et le numéro du type du jeton entre crochets,
-et enfin le numéro de ligne et de colonne du premier caractère du jeton.
+// À chaque jeton correspond une chaîne de caractères entre crochets qui commence toujours par le numéro du canal @-1,.
+// Suivent ensuite les indices du premier caractère du jeton et de son dernier caractère dans le flot d'entrée,
+// puis le texte du jeton et le numéro du type du jeton entre crochets,
+// et enfin le numéro de ligne et de colonne du premier caractère du jeton.
+
+// Les numéros de types de jeton sont dans le fichier JetonsJava.token.
+
+// commande a utiliser pour test son .g4
+// java org.antlr.v4.Tool JetonsJava.g4 && javac JetonsJava.java MainJetonsJava.java && java MainJetonsJava < MainJetonsJava.java
+// build, generate avec ANTLR, run

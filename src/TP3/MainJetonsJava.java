@@ -14,7 +14,6 @@ class MainJetonsJava {
             Token token = lex.nextToken();
             if (token.getType() == Token.EOF)
                 break;
-            System.out.println(token);
         }
     }
 }
