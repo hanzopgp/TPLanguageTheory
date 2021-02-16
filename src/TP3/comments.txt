@@ -20,3 +20,17 @@
 // Isolation de jetons dans un code source Java
 
 // UNMATCH regle correspondant au reste
+
+// Utilisation de ANTLR avec Idea ;
+// On fait nos .g4
+// Click droit config
+// Output directory et localisation des grammar
+// Click droit generate
+// Creation d'un Main pour test notre fichier généré
+// On met en argument le fichier dont on veut extraire les tokens en argument
+
+// Analyse de l'output
+À chaque jeton correspond une chaîne de caractères entre crochets qui commence toujours par le numéro du canal @-1,.
+Suivent ensuite les indices du premier caractère du jeton et de son dernier caractère dans le flot d'entrée,
+puis le texte du jeton et le numéro du type du jeton entre crochets,
+et enfin le numéro de ligne et de colonne du premier caractère du jeton.
