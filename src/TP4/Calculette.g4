@@ -41,7 +41,6 @@ expr
 	| g = ENTIER
 	{$val = Integer.parseInt($g.text);};
 
-// lexer
 NEWLINE: '\r'? '\n' -> skip;
 
 WS: (' ' | '\t')+ -> skip;
