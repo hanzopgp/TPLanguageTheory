@@ -4,10 +4,10 @@ start
     : expr EOF;
 
 expr
-    : expr '*' expr
-    | expr '+' expr
-    | ENTIER
-    ;
+   : expr '*'expr
+   | expr '+' expr
+   | ENTIER
+   ;
 
 // lexer
 NEWLINE : '\r'? '\n'  -> skip;
