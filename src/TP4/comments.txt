@@ -1,0 +1,5 @@
+//générer depuis g4
+// Allez and ANTLR Preview
+// Click droit sur la regle a tester dans la fichier .g4
+// Ecrire input dans le cadre
+// Regarder resultat dans le cadre de droite
